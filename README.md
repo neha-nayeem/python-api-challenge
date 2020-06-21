@@ -17,8 +17,8 @@ In part 1, we are supposed to visualize the weather of 500+ cities across the wo
     * An `output_data` folder that contains the CSV file `cities.csv` created in part 1
 
     * An `Images` folder that contains:
-     - PNG files of 4 scatter plots created in part 1, as well as 8 linear regression plots.
-     - A heatmap created in part 2, along with a second map including hotel markers
+      - PNG files of 4 scatter plots created in part 1, as well as 8 linear regression plots.
+      - A heatmap created in part 2, along with a second map including hotel markers
     
 
 ## WeatherPy
