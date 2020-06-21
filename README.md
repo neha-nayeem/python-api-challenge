@@ -17,8 +17,8 @@ In part 1, we are supposed to visualize the weather of 500+ cities across the wo
     * An `output_data` folder that contains the CSV file `cities.csv` created in part 1
 
     * An `Images` folder that contains:
-     - PNG files of 4 scatter plots created in part 1, as well as 8 linear regression plots.
-     - A heatmap created in part 2, along with a second map including hotel markers
+      - PNG files of 4 scatter plots created in part 1, as well as 8 linear regression plots.
+      - A heatmap created in part 2, along with a second map including hotel markers
     
 
 ## WeatherPy
@@ -36,7 +36,7 @@ In part 1, we are supposed to visualize the weather of 500+ cities across the wo
 
 The weather data retrieved in part 1 was used in creating a humidity heatmap of all the cities. 
 
-![Humidity-Heatmap](Humidity-Heatmap.png)  
+![Humidity-Heatmap](Images/Humidity-Heatmap.png)  
 
 
 The next step was identifying cities to vacation in based on ideal weather conditions. Any cities that did not meet ALL of the below conditions were not taken into consideration:
@@ -51,4 +51,4 @@ The next step was identifying cities to vacation in based on ideal weather condi
 
 This resulted in 8 cities after which Google Places API was used to find the first hotel for each city located within 5000 meters of its coordinates. Information for one of the 8 cities was not available and this row was dropped. With the final hotel list at 7 cities, hotel markers were plotted on top of the heatmap as below.
 
-![Heatmap-Hotels](Heatmap-Hotels.png)  
+![Heatmap-Hotels](Images/Heatmap-Hotels.png)  
